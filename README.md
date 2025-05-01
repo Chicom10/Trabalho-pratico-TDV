@@ -1,7 +1,7 @@
 DanceDanceSnake é uma variação do clássico jogo Snake, desenvolvido em C# utilizando o motor gráfico MonoGame.
 O objetivo do jogo é controlar uma cobra para apanhar frutas, evitando colisões com paredes ou com o próprio corpo.
 
-## O porquê da Escolha
+## O Porquê da Escolha
 Escolhemos o projeto DanceDanceSnake por ser um jogo 2D simples e bem estruturado.
 O projeto utiliza MonoGame, permitindo a aprendizagem de desenvolvimento de jogos 2D em C#.
 A organização do código facilita a manutenção e futuras melhorias, com classes separadas para a cobra, o campo de jogo e a gestão de níveis.
