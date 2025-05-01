@@ -79,7 +79,7 @@ __1-Pasta Input__
 
 Esta pasta trata de todas as formas de entrada do jogador, como teclado ou comandos (gamepads). A ideia é usar interfaces para abstrair os controlos, o que permite mudar o tipo de entrada sem alterar o resto do código do jogo. 
 
-## 🧩 Ficheiros principais: 
+## Ficheiros principais: 
 
 __1. IInput.cs__ 
 
