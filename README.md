@@ -99,8 +99,7 @@ Ou seja, tanto o teclado como o gamepad implementam esta interface — o jogo ap
 __2. KeyboardInput.cs__
 
 Implementa IInput para usar o teclado como controlo. 
-Usa Keyboard.GetState() do MonoGame para detetar se teclas como W, A, S, D ou setas estão pressionadas. 
-Também pode verificar se a tecla de espaço ou enter foi carregada para acções especiais. 
+Usa Keyboard.GetState() do MonoGame para detetar se teclas das setas estão pressionadas.  
 
 __3. GamepadInput.cs__ 
 
