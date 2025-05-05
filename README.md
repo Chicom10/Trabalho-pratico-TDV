@@ -137,27 +137,13 @@ Coloca alguns obstáculos fixos para testar colisões.
 Inicializa comida ou outras entidades. 
 Este nível serve para desenvolvimento, para ver se a lógica da cobra, colisões e limites está a funcionar bem. 
 
-__3. PlaygroundTile.cs__ 
+__3. PlaygroundSection.cs__ 
 
-Representa uma única célula da grelha. 
-Cada tile pode conter: 
-Nada (espaço livre), 
-Uma parede, 
-Comida, 
-Parte da cobra, etc. 
-Pode ter propriedades como: 
-IsBlocked, IsWalkable, TileType. 
-
-__4. PlaygroundFactory.cs__ 
-
-Classe responsável por criar instâncias de Playground. 
-Abstrai a criação de níveis, útil para alternar entre vários layouts ou níveis dinamicamente. 
-
-__5. TileType.cs__ 
-
-Enumeração que define os tipos possíveis de tiles: 
-Empty, Wall, Food, Snake, etc.
-Isto permite tratar os diferentes tipos de elementos do mapa com lógica simples e clara. 
+Representa as classes das texturas usadas no jogo.A classe PlaygroundSection representa uma célula do tabuleiro do jogo, e guarda:
+A posição na grelha (Position)
+As texturas para desenhar (chão, parede, fruta)
+E as flags lógicas que indicam se tem parede ou fruta (HasWall, HasFruit)
+Isto serve de estrutura base para o mapa, onde cada célula pode ser personalizada com elementos do jogo.
 
 ## 3-Pasta Snake
 
