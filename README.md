@@ -107,16 +107,10 @@ Outra implementação de IInput, mas para comandos (gamepads).
 Usa a API GamePad.GetState() para ler o D-pad ou joysticks. 
 Permite que dois jogadores usem comandos distintos. 
 
-__4. InputFactory.cs__ 
+__4.MovingDirection.cs__
 
-Classe que escolhe dinamicamente qual a implementação de IInput usar (teclado ou comando). 
-Facilita a troca entre modos de controlo (ex.: se houver comando ligado, usa o comando; senão, usa teclado). 
-
-__5. MultiInput.cs__ 
-
-Esta é interessante: combina várias fontes de entrada. 
-Exemplo: permite que o jogador use simultaneamente teclado e comando. 
-Ideal para dar mais liberdade ao jogador ou para multiplayer local. 
+Define as quatro direções possíveis de movimento da cobra (cima, baixo, esquerda, direita).
+Usado para controlar e verificar a direção atual com clareza e segurança.
 
 ## 2-Pasta Level 
 Esta pasta contém classes que representam o cenário de jogo, incluindo o mapa (chamado Playground), os objetos que nele existem, e os níveis de teste ou produção. 
