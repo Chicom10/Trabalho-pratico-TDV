@@ -202,26 +202,37 @@ __Pasta principal StateMachine__
 Contém: 
 
 ApplicationStateMachine.cs – A classe que gere os estados e trata das transições. 
+
 IApplicationState.cs – Interface base para todos os estados. 
+
 IStateFactory.cs e StateFactory.cs – Usadas para criar instâncias dos vários estados de forma limpa (injeção de dependências ou modularidade). 
 
 __Subpasta: States__ 
 
 Contém as classes concretas para cada estado do jogo: 
 Exemplos: 
+
 ApplicationStateTitleScreen.cs – Ecrã inicial (menu principal). 
+
 ApplicationStateGameRunning.cs – Estado durante o jogo ativo. 
+
 ApplicationStatePaused.cs – Quando o jogador pausa o jogo. 
+
 ApplicationStateGameOver.cs – Fim de jogo. 
+
 ApplicationStateCredits.cs – Ecrã de créditos. 
 
 __Cada um destes ficheiros:__ 
 
 Implementa uma interface ou classe base comum. 
 Define métodos como: 
+
 Enter() – O que acontece ao entrar neste estado. 
+
 Update() – O que deve ser atualizado enquanto está neste estado. 
-Draw() – O que deve ser desenhado no ecrã. 
+
+Draw() – O que deve ser desenhado no ecrã.
+
 HandleInput() – Reage ao input do jogador. 
 
 __Vantagens desta organização__  
