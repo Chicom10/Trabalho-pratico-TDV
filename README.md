@@ -26,7 +26,7 @@ Contém recursos gráficos (sprites, fontes, ecrãs), o ficheiro .mgcb (MonoGame
 
 __Data__
 
-Globals.cs – Provavelmente contém constantes e variáveis globais usadas pelo jogo. 
+Globals.cs – Contém constantes e variáveis globais usadas pelo jogo. 
 
 __Input__ 
 
@@ -139,7 +139,6 @@ Pensa nisto como o “tabuleiro” onde tudo acontece. A cobra, os itens, e os l
 __2. TestLevel.cs__ 
 
 Implementa um nível de teste baseado em Playground. 
-Provavelmente: 
 Define o tamanho da grelha (ex.: 20x20). 
 Coloca alguns obstáculos fixos para testar colisões. 
 Inicializa comida ou outras entidades. 
